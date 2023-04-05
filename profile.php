@@ -21,7 +21,7 @@
  </head>
  <body>
    <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <!--<nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -43,9 +43,35 @@
 			<li><a href="logout.php">Logout</a></li>
           
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>//nav-collapse
       </div>
-    </nav></br></br></br></br>
+    </nav></br></br></br></br>-->
+    <div id="header" class="clearfix">
+    <a class="navbar1" href="">
+            <img src="images/crest.png"  alt="Logo">
+          </a>
+    <h1>St Xavier's College</h1>
+    <h3>(Autonomous)</h3>	
+  </div>
+  <nav class="navbar navbar-default" id="sub-menu">  
+    <div class="navbar-header">    
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">      
+        <span class="sr-only">Toggle navigation</span>      
+        <span class="icon-bar"></span>      
+        <span class="icon-bar"></span>      
+        <span class="icon-bar"></span>    
+      </button>  
+    </div>  
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">    
+      <ul class="nav navbar-nav navbar-left">      
+        <li><a href="teacher.php">Home</a></li>
+        <li class="active"><a href="profile.php">Profile</a></li>
+        <li><a href="class.php">Classes</a></li>
+        <li ><a href="statistics.php">Statistics</a></li>
+        <li><a href="logout.php">Logout</a></li>
+      </ul>  
+    </div>  
+  </nav> 
   
   <div class="container">
     <?php

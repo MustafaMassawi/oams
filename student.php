@@ -46,11 +46,11 @@
         <div class="container-login100" style="background-image: url('images/books4.jpg');">
           
 				<br><br>
-        <span class="login100-form-title p-b-41">
+        <center><span class="login100-form-title p-b-41">
 					Student Information
-        </span>
+        </span></center>
         
-        <div class="container">
+    <div class="container">
           <center>
   <div id="output"></div>
 </center>
@@ -106,7 +106,7 @@
    <!-- FOOTER -->
    <footer style="background:; height:;">
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy;       @2019 GGITS &middot;  developed by  Ritika Ghosh & Twinkle Arora  &middot; </p>
+        <p>&copy;       @2023 StXaviers &middot;  developed by  Atharva & Mustafa  &middot; </p>
        </footer>
 
     

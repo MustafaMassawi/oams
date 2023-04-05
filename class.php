@@ -19,9 +19,12 @@
   <style>.form-control{display:inline-block !important; width: 185px !important; margin:5px !important;}.details{padding:5px 10px;margin-bottom:30px;border: 1px solid lightgrey;border-top: none;}}</style>
  </head>
  <body>
-  <div id="header" class="clearfix">
-    <h1>Gyan Ganga Institute of Technology and Sciences</h1>
-    <h3>Edit Class</h3>	
+ <div id="header" class="clearfix">
+    <a class="navbar1" href="">
+            <img src="images/crest.png"  alt="Logo">
+          </a>
+    <h1>St Xavier's College</h1>
+    <h3>(Autonomous)</h3>	
   </div>
   <nav class="navbar navbar-default" id="sub-menu">  
     <div class="navbar-header">    
@@ -37,7 +40,7 @@
         <li><a href="teacher.php">Home</a></li>
         <li><a href="profile.php">Profile</a></li>
         <li class="active"><a href="class.php">Classes</a></li>
-        <li><a href="statistics.php">Statistics</a></li>
+        <li ><a href="statistics.php">Statistics</a></li>
         <li><a href="logout.php">Logout</a></li>
       </ul>  
     </div>  
