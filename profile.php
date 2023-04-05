@@ -46,7 +46,7 @@
         </div>//nav-collapse
       </div>
     </nav></br></br></br></br>-->
-    <div id="header" class="clearfix">
+    <div id="header" class="clearfix" style="background-image: url('images/xaviers1.png');">
     <a class="navbar1" href="">
             <img src="images/crest.png"  alt="Logo">
           </a>
@@ -64,7 +64,7 @@
     </div>  
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">    
       <ul class="nav navbar-nav navbar-left">      
-        <li><a href="teacher.php">Home</a></li>
+        <li ><a href="teacher.php">Home</a></li>
         <li class="active"><a href="profile.php">Profile</a></li>
         <li><a href="class.php">Classes</a></li>
         <li ><a href="statistics.php">Statistics</a></li>

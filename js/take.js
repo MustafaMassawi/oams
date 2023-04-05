@@ -16,6 +16,15 @@ $(document).ready(function() {
   $(".marker").tooltip({title:'Click to mark this student as present or absent',placement:'top'});
   $(".delete-roll").tooltip({title:'Click to delete the student',placement:'top'});
 });
+$(document).ready(function() {
+  // existing code...
+
+  $('#markallpresent').on('click', function() {
+    $('.marker:contains("A")').each(function() {
+      markAsPresent($(this));
+    });
+  });
+});
 function deleteWarning(roll) {
   $('.warning-roll').html(roll);
 }

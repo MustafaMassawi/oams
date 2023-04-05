@@ -47,7 +47,7 @@
         </div>//.nav-collapse
       </div>
     </nav></br></br></br></br> -->
-    <div id="header" class="clearfix">
+    <div id="header" class="clearfix" style="background-image: url('images/xaviers1.png');">
     <a class="navbar1" href="">
             <img src="images/crest.png"  alt="Logo">
           </a>

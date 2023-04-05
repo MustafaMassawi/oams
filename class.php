@@ -19,7 +19,7 @@
   <style>.form-control{display:inline-block !important; width: 185px !important; margin:5px !important;}.details{padding:5px 10px;margin-bottom:30px;border: 1px solid lightgrey;border-top: none;}}</style>
  </head>
  <body>
- <div id="header" class="clearfix">
+ <div id="header" class="clearfix" style="background-image: url('images/xaviers1.png');">
     <a class="navbar1" href="">
             <img src="images/crest.png"  alt="Logo">
           </a>
@@ -37,8 +37,8 @@
     </div>  
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">    
       <ul class="nav navbar-nav navbar-left">      
-        <li><a href="teacher.php">Home</a></li>
-        <li><a href="profile.php">Profile</a></li>
+        <li ><a href="teacher.php">Home</a></li>
+        <li ><a href="profile.php">Profile</a></li>
         <li class="active"><a href="class.php">Classes</a></li>
         <li ><a href="statistics.php">Statistics</a></li>
         <li><a href="logout.php">Logout</a></li>
