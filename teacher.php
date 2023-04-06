@@ -21,32 +21,6 @@
     <link href="navbar-fixed-top.css" rel="stylesheet">
  </head>
  <body>
-   <!-- Fixed navbar 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.php">Online Attendance</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="teacher.php">Dashboard</a></li>
-            <li><a href="profile.php">Profile</a></li>
-           
-			<li><a href="statistics.php">Statistics</a></li>
-			<li><a href="about.php">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-			<li><a href="logout.php">Logout</a></li>
-          
-          </ul>
-        </div>//.nav-collapse
-      </div>
-    </nav></br></br></br></br> -->
     <div id="header" class="clearfix" style="background-image: url('images/xaviers1.png');">
     <a class="navbar1" href="">
             <img src="images/crest.png"  alt="Logo">
@@ -121,7 +95,7 @@
               <select class="form-control" name="year">
               <?php foreach(range(date('Y',time()),1983) as $r) echo '<option>'.$r.'</option>'; ?>
               </select>
-              <input class="form-control" name="code" placeholder="Code , Eg : COE-322">
+              <input class="form-control" name="code" placeholder="Code , Eg : SIT-010">
               <select class="form-control" name="section">
               <option value="-1">Choose Section</option>
               <?php foreach(range(1,3) as $r) echo '<option>'.$r.'</option>'; ?>
@@ -130,8 +104,8 @@
               <option value="-1">Choose Semester</option>
               <?php foreach(range(1,8) as $r) echo '<option>'.$r.'</option>'; ?>
               </select>
-              <input class="form-control" name="start" placeholder="Starting Roll Number (Eg. 201/CO/12)">
-              <input class="form-control" name="end" placeholder="Ending Roll Number (Eg. 265/CO/12)">
+              <input class="form-control" name="start" placeholder="Starting Roll Number (Eg. 001/IT/23)">
+              <input class="form-control" name="end" placeholder="Ending Roll Number (Eg. 120/IT/23)">
               <button class="btn btn-primary" id="add">Add Class</button>
               <button class="btn" id="cancel">Cancel</button>
             </div>
