@@ -80,6 +80,7 @@
   <button class="btn btn-primary login100-form-btn" >
     Login
   </button>
+  <a href="forgot_password.php" style="font-size: medium">Forgot Password?</a>
 </div><br><center><h4 style="color:gray">Don't have an account?</h4>
 <h2>
 <a href="signup.php" style="font-size: large">Signup here</a>
@@ -99,7 +100,7 @@
      <!-- FOOTER -->
      <footer style="height:120%;">
 			<p class="pull-right"><a href="#">Back to top</a></p>
-			<p>&copy;       @2019 GGITS &middot;  developed by  Ritika Ghosh & Twinkle Arora  &middot; </p>
+			<p>&copy;       @2023 StXaviers &middot;  developed by  Atharva & Mustafa  &middot; </p>
 		  </footer>
 </div>
     </div><!-- /.container -->

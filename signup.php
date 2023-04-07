@@ -113,7 +113,7 @@
 <!-- FOOTER -->
 <footer style="height:120%;">
 			<p class="pull-right"><a href="#">Back to top</a></p>
-			<p>&copy;       @2019 GGITS &middot;  developed by  Ritika Ghosh & Twinkle Arora  &middot; </p>
+			<p>&copy;       @2023 StXaviers &middot;  developed by  Atharva & Mustafa  &middot; </p>
 		  </footer>
 	</div>
 		
